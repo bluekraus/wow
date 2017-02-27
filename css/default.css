@@ -1,0 +1,116 @@
+/* All CSS styles go here */
+
+@font-face {
+font-family: blah;
+src:url(../fonts/Montserrat-Bold.ttf);
+}
+
+
+
+
+
+#container {
+    width: 1000px;
+    height: 900px;
+    position: absolute;
+    left: 50%;
+    margin-left: -500px;
+    border: solid red 1px;
+}
+
+
+.title {
+    padding-top: 300px;
+    padding-left: 75px;
+    font-family: 'Monserrat', sans-serif;
+    letter-spacing: .em;
+    font-size: 6em;
+    color: deeppink;
+    text-rendering: optimizeLegibility;
+    margin-bottom: 0px;
+}
+
+.title2 {
+    padding-top: 0px;
+    padding-left: 125px;
+    font-family: 'Monserrat', sans-serif;
+    letter-spacing: .em;
+    font-size: 6em;
+    color: black;
+    text-rendering: optimizeLegibility;
+}
+.title3 {
+    padding-top: 0px;
+    padding-left: 70px;
+    font-family: 'Monserrat', sans-serif;
+    letter-spacing: .001em;
+    font-size: 6em;
+    color: black;
+    text-rendering: optimizeLegibility;
+}
+
+.subtitle {
+    padding-top: 0px;
+    padding-left: 76px;
+    font-family: 'Monserrat', sans-serif;
+    letter-spacing: .001em;
+    font-size: 1.5em;
+    color: deeppink;
+    text-rendering: optimizeLegibility;
+}
+
+.subtitle1 {
+    padding-top: 0px;
+    padding-left: 76px;
+    font-family: 'Monserrat', sans-serif;
+    letter-spacing: .001em;
+    font-size: 1.5em;
+    color: black;
+    text-rendering: optimizeLegibility;
+}
+
+.text {
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    top: 150px;
+    right: 15px;
+    border: solid blue 1px;
+    overflow: scroll;
+}
+
+p {
+    font-family: 'Crimson Text', serif;
+    letter-spacing: .02em;
+    height: 100px;
+    width: 400px;
+    
+}
+
+.heading1 {
+    font-family: 'Monserrat', sans-serif;
+    letter-spacing: .05em;
+    width: 300px;
+    font-size: 1.5em;
+    color: deeppink;
+    text-rendering: optimizeLegibility;
+}
+
+.paragraph2 {
+    font-family: 'Crimson Text', serif;
+    letter-spacing: .02em;
+    margin-top: 10px;
+    height: 100px;
+    width: 400px;
+}
+
+.heading2 {
+    margin-top: 50px;
+    margin-bottom: 1px;
+    font-family: 'Monserrat', sans-serif;
+    letter-spacing: .05em;
+    width: 300px;
+    font-size: 1.5em;
+    color: deeppink;
+    text-rendering: optimizeLegibility;
+}
